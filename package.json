@@ -1,6 +1,6 @@
 {
   "name": "vue3-klasha",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Vue Klasha Component for Vue 3.x.",
   "main": "dist/klasha.min.js",
   "scripts": {
@@ -42,7 +42,8 @@
     "eslint-loader": "^2.1.2",
     "eslint-plugin-vue": "^5.2.2",
     "standard": "^12.0.1",
-    "uglifyjs-webpack-plugin": "^2.1.2",
+    "uglify-js": "^3.14.2",
+    "uglifyjs-webpack-plugin": "^2.2.0",
     "vue": "^3.1.0",
     "vue-loader": "^16.0.0",
     "vue-template-compiler": "^2.6.7",
@@ -52,6 +53,7 @@
   },
   "dependencies": {
     "@vue/compiler-sfc": "^3.1.0",
+    "uglify-js": "^3.14.2",
     "vue": "^3.1.0",
     "vue-style-loader": "^4.1.3"
   }
