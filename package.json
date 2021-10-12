@@ -1,7 +1,7 @@
 {
-  "name": "vue-klasha",
-  "version": "0.0.1",
-  "description": "Vue Klasha Component for Vue 2.x.",
+  "name": "vue3-klasha",
+  "version": "0.0.2",
+  "description": "Vue Klasha Component for Vue 3.x.",
   "main": "dist/klasha.min.js",
   "scripts": {
     "lint": "eslint src --ext=js,vue  || exit 0",
@@ -11,29 +11,31 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dansteve/vue-klasha.git"
+    "url": "git+https://github.com/dansteve/vue3-klasha.git"
   },
   "files": [
     "dist",
     "src"
   ],
   "keywords": [
-    "PayStack",
+    "Klasha",
     "Vue",
     "Vuejs",
     "Vue 2",
+    "Vue 3",
     "Payment Gateway"
   ],
   "author": "Dansteve Adekanbi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dansteve/vue-klasha/issues"
+    "url": "https://github.com/dansteve/vue3-klasha/issues"
   },
   "homepage": "",
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.3.4",
     "@babel/preset-env": "^7.3.4",
+    "@vue/compat": "^3.1.0",
     "babel-loader": "^8.0.5",
     "css-loader": "^2.1.0",
     "eslint-config-vue": "^2.0.2",
@@ -41,14 +43,16 @@
     "eslint-plugin-vue": "^5.2.2",
     "standard": "^12.0.1",
     "uglifyjs-webpack-plugin": "^2.1.2",
-    "vue": "^2.6.7",
-    "vue-loader": "^15.6.4",
+    "vue": "^3.1.0",
+    "vue-loader": "^16.0.0",
     "vue-template-compiler": "^2.6.7",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.2.1"
   },
   "dependencies": {
-    "vue": "^2.6.7"
+    "@vue/compiler-sfc": "^3.1.0",
+    "vue": "^3.1.0",
+    "vue-style-loader": "^4.1.3"
   }
 }

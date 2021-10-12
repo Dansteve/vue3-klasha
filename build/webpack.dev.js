@@ -1,6 +1,6 @@
-let path = require('path')
-let webpack = require('webpack')
-const VueLoaderPlugin = require('vue-loader/lib/plugin')
+let path = require('path');
+let webpack = require('webpack');
+const { VueLoaderPlugin } = require('vue-loader');
 
 module.exports = {
     entry: {
@@ -35,4 +35,4 @@ module.exports = {
         })
     ],
     devtool: 'eval-source-map'
-}
+};

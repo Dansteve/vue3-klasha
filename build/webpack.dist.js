@@ -1,7 +1,7 @@
-var path = require('path')
-var webpack = require('webpack')
-const VueLoaderPlugin = require('vue-loader/lib/plugin')
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+var path = require('path');
+var webpack = require('webpack');
+const { VueLoaderPlugin } = require('vue-loader')
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
     entry: {
@@ -76,4 +76,5 @@ module.exports = {
         })
     ],
     devtool: 'source-map'
-}
+};
+
