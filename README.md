@@ -1,4 +1,4 @@
-# Klasha Component for Vue 2.x
+# Klasha Component for Vue 3.x
 
 A Vue Plugin for Klasha payment gateway.
 
