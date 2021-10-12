@@ -1,6 +1,6 @@
 {
   "name": "vue3-klasha",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Vue Klasha Component for Vue 3.x.",
   "main": "dist/klasha.min.js",
   "scripts": {

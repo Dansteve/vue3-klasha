@@ -4,14 +4,14 @@ A Vue Plugin for Klasha payment gateway.
 
 ### Demo
 
-![Demo Image](vue-klasha.png?raw=true "Demo Image")
+![Demo Image](vue3-klasha.png?raw=true "Demo Image")
 
 ### Install
 
 #### NPM
 
 ```
-npm install vue vue-klasha --save
+npm install vue vue3-klasha --save
 ```
 
 #### Javascript via CDN
@@ -19,8 +19,8 @@ npm install vue vue-klasha --save
 ```javascript 1.8
 <!-- Vue -->
 <script src="https://unpkg.com/vue/dist/vue.js"></script>
-<!-- Vue-Klasha -->
-<script src="https://unpkg.com/vue-klasha/dist/klasha.min.js"></script>
+<!-- vue3-klasha -->
+<script src="https://unpkg.com/vue3-klasha/dist/klasha.min.js"></script>
 ```
 
 ### Usage
@@ -54,7 +54,7 @@ npm install vue vue-klasha --save
 </template>
 
 <script type="text/javascript">
-import klasha from 'vue-klasha';
+import klasha from 'vue3-klasha';
 export default {
     components: {
         klasha

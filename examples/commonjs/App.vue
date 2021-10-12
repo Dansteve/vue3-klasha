@@ -5,7 +5,7 @@
       class="ion-text-center"
     >
       <p><strong class="padding">Welcome to Dansteve Adekanbi</strong></p>
-      <p><strong class="padding">Vue-Klasha package testing</strong></p>
+      <p><strong class="padding">vue3-klasha package testing</strong></p>
       <br>
       <div class="margin">
         <klasha
